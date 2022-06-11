@@ -1,0 +1,25 @@
+.home{
+    display:flex; 
+    flex-direction:row;
+    
+}
+
+.theme{
+    flex:6;
+   
+}
+.widgets, .charts{
+    display:flex;
+    padding:20px;
+    gap:20px;
+}
+.charts{
+    padding:5px 20px;
+}
+.table{
+    box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    padding:20px;
+    margin:20px;
+}

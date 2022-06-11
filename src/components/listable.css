@@ -1,0 +1,13 @@
+.status{
+    padding:5px;
+    border-radius:5px;
+  
+}
+.Pending{
+    color:rgb(221,0,26);
+    background-color:rgba(221,0,26,0.3);
+}
+.Approved{
+    color:rgb(114,180,13);
+    background-color:rgba(114,180,13,0.3);
+}

@@ -1,0 +1,66 @@
+
+
+
+
+.section{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+.card{
+    box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    flex:1;
+    border-radius:20px;
+    
+    justify-conttent:space-between;
+}
+
+.chart3{
+    box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 7px 18px 0px rgba(0,0,0,0.4);
+    flex:2;
+    padding:0 20px;
+   
+}
+.top3{
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.txt3{
+    font-wieght:light;
+    color:rgb(189,190,192);
+}
+
+.button3{
+  color:#2C81BF;
+  font-size:18px;
+  background-color:rgba(160,204,228,0.3);
+  border:none;
+  padding:5px;
+}
+.bottom3{
+    padding:10px;
+    display:flex;
+    gap:10px;
+}
+
+.img3{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:1px solid rgb(189,190,192);
+}
+.info3{
+   
+}
+.para3{
+    color:rgb(138,138,145);
+}
+.lst3{
+    padding:20px;
+}
