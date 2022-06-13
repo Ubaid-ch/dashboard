@@ -27,51 +27,51 @@ const Sidebar = () => {
           <p>MAIN</p>
             <Link to="/" style={{ textDecoration: 'none' }}><li>
             <DashboardIcon className='icon1' />
-              <span>Dashboard</span>
+              <span className='link2'>Dashboard</span>
             </li>
             </Link>
           <p>LISTS</p>
-          <Link to="/users" style={{ textDecoration: 'none' }}>
+          <Link to="/users"  style={{ textDecoration: 'none' }}>
             <li>
               <PersonIcon className='icon1' />
-              <span>Users</span></li>
+              <span className='link2'>Users</span></li>
           </Link>
           <Link to="/products" style={{ textDecoration: 'none' }}>
             <li>
               <ProductionQuantityLimitsIcon className='icon1' />
-              <span>Products</span></li>
+              <span className='link2'>Products</span></li>
           </Link>
             <li>
             <BorderColorIcon className='icon1' />
-              <span>Orders</span></li>
+              <span className='link2'>Orders</span></li>
             <li>
               <LocalShippingIcon className='icon1'  />
-              <span>Delivery</span></li>
+              <span className='link2'>Delivery</span></li>
           <p>USEFUL</p> 
             <li>
               <QueryStatsIcon className='icon1' />
-              <span>Stats</span></li>
+              <span className='link2'>Stats</span></li>
             <li>
               <NotificationsActiveIcon className='icon1' />
-              <span>Notifications</span>
+              <span className='link2'>Notifications</span>
               </li>
           <p>SERVICES</p>  
             <li>
               <HealthAndSafetyIcon className='icon1' />
-              <span>System health</span></li>
+              <span className='link2'>System health</span></li>
             <li>
               <AnchorIcon className='icon1' />
-              <span>Logs</span></li>
+              <span className='link2'>Logs</span></li>
             <li>
               <SettingsIcon className='icon1' />
-              <span>Settings</span></li>
+              <span className='link2'>Settings</span></li>
           <p>USER</p>    
             <li>
               <PersonIcon className='icon1' />
-              <span>Profile</span> </li>
+              <span className='link2'>Profile</span> </li>
             <li>
               <LogoutIcon className='icon1' />
-              <span>Log Out</span></li>
+              <span className='link2'>Log Out</span></li>
           </ul>
         </div>
         <div className='bottom'>

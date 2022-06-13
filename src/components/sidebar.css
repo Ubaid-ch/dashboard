@@ -8,7 +8,7 @@
     color:rgb(13,110,253);
 } */
 .main{
-    border-right:1px solid rgba(198,198,198,0.4);
+    border-right:var(--border);
     min-height:100vh;
     
     display:flex;
@@ -44,6 +44,7 @@
 }
 .c1{
     border:0.5px solid rgba(148,148,148,0.6);
+    background-color:var(--c1)
 }
 .c2{
     background-color:black;
@@ -65,5 +66,5 @@ li:hover{
 }
 
 .icon1{
-    color:rgba(148,148,148,0.6);
+    color:var(--icons);
 }

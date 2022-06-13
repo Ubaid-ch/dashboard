@@ -1,3 +1,13 @@
+:root{
+  --background:white;
+  --icons:rgba(148,148,148,0.6);
+  --border:1px solid rgba(198,198,198,0.4);
+  --title:rgb(160,160,160);
+  --black:black;
+  --c1:white;
+}
+
+
 body {
   /* margin: 0;
   padding:0; */
@@ -14,4 +24,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.link2{
+  color:var(--black);
+  border-bottom:none;
 }
