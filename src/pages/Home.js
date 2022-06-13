@@ -15,9 +15,9 @@ const Home = () => {
   setTheme(newTheme)}
 
   return (
-    <div className='home'  data-theme={theme}>
+    <div className='home'    data-theme={theme}>
     
-      <Sidebar click={switchTheme} />
+      <Sidebar/>
       
       <div className='theme'>
       <Navbar />
@@ -35,7 +35,9 @@ const Home = () => {
         <p>Latest Transactions</p>
         <Listtable />
       </div>
+      <button onClick={switchTheme}>switch</button>
       </div>
+      
     </div>
   )
 }

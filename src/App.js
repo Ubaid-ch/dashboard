@@ -17,8 +17,7 @@ import { formInputs, productInputs } from "./pages/formSource";
 
 
 function App() {
-  
-
+ 
   return (
    <div>
     <Router>
@@ -40,6 +39,7 @@ function App() {
     </Routes>
   
     </Router>
+    
     </div>
   );}
 
