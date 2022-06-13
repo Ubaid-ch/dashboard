@@ -20,7 +20,7 @@ const Featured = () => {
           ...config,
           id: 0, // we indicate which component we want to change
           percent: Math.floor(Math.random() * 100 + 1),
-          colorSlice: "#000",
+          // colorSlice: "#FFF",
           fontColor: "#F50057",
           fontSize: "1.2rem",
           fontWeight: 700

@@ -13,9 +13,8 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
 
-
-const Sidebar = () => {
-  
+const Sidebar = ({click}) => {
+ 
   
   return (
     <div className='main'>
@@ -75,7 +74,7 @@ const Sidebar = () => {
           </ul>
         </div>
         <div className='bottom'>
-             <div className='c1'></div>
+             <div className='c1' onClick={click}  ></div>
              <div className='c2'></div>
         </div>
     </div>

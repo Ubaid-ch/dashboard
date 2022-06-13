@@ -6,12 +6,18 @@ import Sidebar from '../components/sidebar'
 import Widget from '../components/Widget'
 import "./css/home.css"
 import Listtable from '../components/Listtable'
+import useLocalStorage from "use-local-storage"
 
 const Home = () => {
+  const [theme, setTheme]=useLocalStorage("theme" ? "dark" : "light")
+  const switchTheme = () => {
+  const newTheme=theme === "light" ? "dark" : "light";      
+  setTheme(newTheme)}
+
   return (
-    <div className='home'>
+    <div className='home'  data-theme={theme}>
     
-      <Sidebar />
+      <Sidebar click={switchTheme} />
       
       <div className='theme'>
       <Navbar />

@@ -15,10 +15,12 @@ import { formInputs, productInputs } from "./pages/formSource";
 
 
 
+
 function App() {
   
+
   return (
-   
+   <div>
     <Router>
     <Routes>
       <Route path="/">
@@ -38,9 +40,9 @@ function App() {
     </Routes>
   
     </Router>
-   
+    </div>
   );}
 
 
+export default App
 
-export default App;
