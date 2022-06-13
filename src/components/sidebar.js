@@ -74,7 +74,7 @@ const Sidebar = ({click}) => {
           </ul>
         </div>
         <div className='bottom'>
-             <div className='c1' onClick={click}  ></div>
+             <div className='c1' onClick={() => click()}  ></div>
              <div className='c2'></div>
         </div>
     </div>
